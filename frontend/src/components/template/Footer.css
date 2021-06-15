@@ -1,0 +1,8 @@
+footer.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #696969;
+    box-shadow: var(--shadow);
+    color: rgb(0, 0, 0);
+}

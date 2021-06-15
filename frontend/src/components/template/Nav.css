@@ -1,0 +1,54 @@
+aside.menu-area {
+    background-color: #696969;
+    box-shadow:
+        2px 0 10 px 0 rgba(0, 0, 0, 0.12)
+        2px 0 10 px 0 rgba(0, 0, 0, 0.19);
+}
+
+.menu a{
+    margin-top: 18px;
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    padding: 15px;
+}
+
+.menu a:hover{
+    transform: scale(0.97);
+    transition: transform .3s;
+}
+
+.menu a:hover {
+    background: linear-gradient(135deg, #07a7e3  0%, #32dac3 100%);
+}
+
+aside i{
+    color: #faaf18;
+}
+
+aside hr{
+    margin-top: 0px;
+    margin-bottom: -18px;
+    background: #4F4F4F;
+    height: 0.2px;
+}
+
+@media(max-width: 768px) {
+    .menu{
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+    }
+
+    .menu a{
+        display: inline;
+        padding: 10px;
+        margin: 0px;
+    }
+
+    .menu{
+        height:  100%;
+        justify-content: space-around;
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "name": "Marisa oliveira",
+      "email": "marisa@oliveira.com.br",
+      "id": 1
+    },
+    {
+      "name": "Anderson Santos",
+      "email": "anderson@santos.com.br",
+      "id": 2
+    },
+    {
+      "name": "Paulo Roberto",
+      "email": "paulo@roberto.com.br",
+      "id": 3
+    }
+  ]
+}
