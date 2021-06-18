@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom'
 
 import Routes from './Routes'
 import Logo from '../components/template/Logo'
-import Nave from '../components/template/Nave'
+import Nav from '../components/template/Nav'
 import Footer from '../components/template/Footer'
 
 
@@ -14,7 +14,7 @@ export default props =>
 <BrowserRouter>
     <div className="app">
         <Logo />
-        <Nave />
+        <Nav />
         <Routes />
         <Footer />
     </div>
